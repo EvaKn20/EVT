@@ -1,0 +1,57 @@
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('Oswald/Oswald-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('Manrope/Manrope-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Playwrite_Display';
+    src: url('Playfair_Display/PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+}
+body{
+    background-color: rgb(206, 235, 226);
+}
+.container {
+    max-width: 1440px;
+    margin:  auto; 
+
+}
+
+#film-description{
+    font-family: 'Manrope';
+}
+#film-description1{
+    font-family: 'Oswald';
+}
+#film-description2{
+    font-family: 'Playwrite_Display';
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+#description1{
+    text-align: center;
+}
+#description2{
+    text-align: left;
+}
+#description3{
+    text-align: justify;
+}
+img{
+    width: 250px;
+    height: 220px;
+    border-radius: 20px;
+}
+#text-bold{
+    font-weight: bold;
+}
+

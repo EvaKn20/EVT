@@ -105,6 +105,7 @@ a:hover::after {
   bottom: -2px;
   height: 2px;
   background-color: green;
+  transform-origin: center
 }
 
 button:hover {

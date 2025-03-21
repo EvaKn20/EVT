@@ -36,7 +36,7 @@ const n = arr.length;
     return arr;
 ```
 ## 5. Изображение 
-![Картинка][https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=480&w=480]
+[Картинка](https://avatars.mds.yandex.net/i?id=43f1a029d98aef8cb0091dba04947086_l-5292126-images-thumbs&n=27&h=480&w=480 "красота")
 
 ## 6. Заключение
 

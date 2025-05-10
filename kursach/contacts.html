@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ТурИмперия - Контакты</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header id="header">
+    <div class="container header-container">
+      <div class="logo">
+        <a href="index.html">ТурИмперия</a>
+      </div>
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="destinations.html">Направления</a></li>
+          <li><a href="contacts.html" class="active">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="theme-switcher">
+        <button id="theme-toggle">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </button>
+      </div>
+      <div class="burger-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav">
+    <ul>
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="destinations.html">Направления</a></li>
+      <li><a href="contacts.html" class="active">Контакты</a></li>
+    </ul>
+  </div>
+
+  <main>
+    <section id="contact-hero" class="hero contact-hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Свяжитесь с нами</h1>
+          <p>Мы всегда рады помочь вам спланировать идеальное путешествие</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-info" class="contact-info section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <h3>Адрес</h3>
+            <p>Минск, пр. Дзержинского, 19</p>
+            <a href="https://maps.google.com/?q=Минск,+пр.+Дзержинского,+19" target="_blank" class="contact-link">Посмотреть на карте</a>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-phone"></i>
+            </div>
+            <h3>Телефон</h3>
+            <p>+375 (29) 123-45-67</p>
+            <a href="tel:+375291234567" class="contact-link">Позвонить нам</a>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Email</h3>
+            <p>info@tourimperium.by</p>
+            <a href="mailto:info@tourimperium.by" class="contact-link">Написать нам</a>
+          </div>
+          
+          <div class="contact-card">
+            <div class="contact-icon">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Режим работы</h3>
+            <p>Пн-Пт: 10:00 - 19:00</p>
+            <p>Сб: 11:00 - 17:00</p>
+            <p>Вс: выходной</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-advantages" class="our-advantages section">
+      <div class="container">
+        <h2 class="section-title">Почему выбирают нас</h2>
+        <div class="advantages-grid">
+          <div class="advantage-card">
+            <div class="advantage-icon">
+              <i class="fas fa-award"></i>
+            </div>
+            <h3>14 лет опыта</h3>
+            <p>Мы работаем в сфере туризма с 2009 года и организовали более 50 000 успешных путешествий</p>
+          </div>
+
+          <div class="advantage-card">
+            <div class="advantage-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3>Надёжные партнёры</h3>
+            <p>Сотрудничаем только с проверенными отелями, перевозчиками и страховыми компаниями</p>
+          </div>
+
+          <div class="advantage-card">
+            <div class="advantage-icon">
+              <i class="fas fa-percent"></i>
+            </div>
+            <h3>Лучшие цены</h3>
+            <p>Прямые контракты с поставщиками услуг позволяют предлагать самые выгодные условия</p>
+          </div>
+
+          <div class="advantage-card">
+            <div class="advantage-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <h3>Забота о клиентах</h3>
+            <p>Поддержка 24/7 во время путешествия и индивидуальный подход к каждому клиенту</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact-form" class="contact-form section">
+      <div class="container">
+        <h2 class="section-title">Отправьте нам сообщение</h2>
+        <div class="form-container">
+          <form id="feedback-form">
+            <div class="form-group">
+              <label for="name">Ваше имя*</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email*</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="phone">Телефон</label>
+              <input type="tel" id="phone" name="phone">
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Тема сообщения*</label>
+              <select id="subject" name="subject" required>
+                <option value="">Выберите тему</option>
+                <option value="booking">Бронирование тура</option>
+                <option value="info">Информация о направлениях</option>
+                <option value="partnership">Сотрудничество</option>
+                <option value="feedback">Отзыв о работе</option>
+                <option value="other">Другое</option>
+              </select>
+            </div>
+            
+            <div class="form-group full-width">
+              <label for="message">Сообщение*</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            
+            <div class="form-group full-width">
+              <div class="checkbox-group">
+                <input type="checkbox" id="agreement" name="agreement" required>
+                <label for="agreement">Я согласен с <a href="#">политикой конфиденциальности</a> и даю согласие на обработку персональных данных</label>
+              </div>
+            </div>
+            
+            <div class="form-group full-width">
+              <button type="submit" class="btn-primary">Отправить сообщение</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq section">
+      <div class="container">
+        <h2 class="section-title">Часто задаваемые вопросы</h2>
+        <div class="faq-container">
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Как забронировать тур?</h3>
+              <div class="faq-icon">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-minus"></i>
+              </div>
+            </div>
+            <div class="faq-answer">
+              <p>Забронировать тур можно несколькими способами: через форму на нашем сайте, по телефону или посетив наш офис. После оформления заявки с вами свяжется наш менеджер для подтверждения деталей и оформления договора.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Какие способы оплаты вы принимаете?</h3>
+              <div class="faq-icon">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-minus"></i>
+              </div>
+            </div>
+            <div class="faq-answer">
+              <p>Мы принимаем различные способы оплаты: наличными в офисе, банковской картой (Visa, MasterCard, МИР), банковским переводом и электронными платежами. При бронировании тура требуется предоплата в размере 30-50% от стоимости.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Что делать в случае отмены тура?</h3>
+              <div class="faq-icon">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-minus"></i>
+              </div>
+            </div>
+            <div class="faq-answer">
+              <p>В случае отмены тура по инициативе туриста действуют условия аннуляции, указанные в договоре. Чем ближе к дате вылета происходит отмена, тем выше штрафные санкции. При отмене тура по инициативе компании или форс-мажорных обстоятельствах мы предлагаем полный возврат средств или перенос на другие даты.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Нужна ли страховка для путешествия?</h3>
+              <div class="faq-icon">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-minus"></i>
+              </div>
+            </div>
+            <div class="faq-answer">
+              <p>Да, медицинская страховка настоятельно рекомендуется для любого зарубежного путешествия, а для некоторых стран является обязательным условием для получения визы. Мы также предлагаем дополнительные виды страхования, такие как страховка от невыезда и страхование багажа.</p>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <div class="faq-question">
+              <h3>Можно ли изменить даты тура после бронирования?</h3>
+              <div class="faq-icon">
+                <i class="fas fa-plus"></i>
+                <i class="fas fa-minus"></i>
+              </div>
+            </div>
+            <div class="faq-answer">
+              <p>Изменение дат тура возможно, но может повлечь дополнительные расходы. Возможность и условия изменения зависят от политики авиакомпаний, отелей и других поставщиков услуг. Рекомендуем сообщать о необходимости изменений как можно раньше.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="our-team" class="our-team section">
+      <div class="container">
+        <h2 class="section-title">Наша команда</h2>
+        <div class="team-grid">
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="img/director.png" alt="Екатерина Смирнова">
+            </div>
+            <h3>Екатерина Смирнова</h3>
+            <p class="member-position">Генеральный директор</p>
+            <p class="member-description">15+ лет опыта в туризме, создала компанию с нуля и превратила ее в лидера рынка.</p>
+          </div>
+          
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="img/prodagi.png" alt="Алексей Петров">
+            </div>
+            <h3>Алексей Петров</h3>
+            <p class="member-position">Руководитель отдела продаж</p>
+            <p class="member-description">Эксперт по международному туризму, помог тысячам клиентов найти идеальное направление для отдыха.</p>
+          </div>
+          
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="img/meneger1.png" alt="Марина Козлова">
+            </div>
+            <h3>Марина Козлова</h3>
+            <p class="member-position">Менеджер по Европе</p>
+            <p class="member-description">Специалист по европейским направлениям с глубоким знанием культуры, истории и гастрономии региона.</p>
+          </div>
+          
+          <div class="team-member">
+            <div class="member-photo">
+              <img src="img/meneger2.png" alt="Дмитрий Соколов">
+            </div>
+            <h3>Дмитрий Соколов</h3>
+            <p class="member-position">Менеджер по Азии</p>
+            <p class="member-description">Увлеченный путешественник, посетивший все ключевые локации Азии, знает регион изнутри.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="subscribe" class="subscribe section">
+      <div class="container">
+        <div class="subscribe-content">
+          <h2>Будьте в курсе наших предложений</h2>
+          <p>Подпишитесь на рассылку и получайте эксклюзивные предложения и информацию о специальных акциях</p>
+          <form class="subscribe-form">
+            <input type="email" placeholder="Ваш email" required>
+            <button type="submit" class="btn-primary">Подписаться</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-about">
+          <div class="logo">ТурИмперия</div>
+          <p>Ваш надежный партнер в мире путешествий с 2009 года. Мы делаем ваши мечты о путешествиях реальностью!</p>
+        </div>
+        <div class="footer-nav">
+          <h3>Навигация</h3>
+          <ul>
+            <li><a href="#our-advantages">Почему мы?</a></li>
+            <li><a href="#contact-form">Обратная связь</a></li>
+            <li><a href="#faq">Вопросы и ответы</a></li>
+          </ul>
+        </div>
+        <div class="footer-contacts">
+          <h3>Контакты</h3>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <a href="tel:+375291234567">+375 (29) 123-45-67</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:info@tourimperium.by">info@tourimperium.by</a>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <a href="https://maps.google.com/?q=Минск,+пр.+Дзержинского,+19" target="_blank">Минск, пр. Дзержинского, 19</a>
+          </div>
+        </div>
+        <div class="footer-social">
+          <h3>Социальные сети</h3>
+          <div class="social-icons">
+            <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-telegram"></i></a>
+            <a href="#" class="social-icon"><i class="fab fa-vk"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 ТурИмперия. Все права защищены.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="#header" class="scroll-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <script src="js/script.js"></script>
+</body>
+</html> 
